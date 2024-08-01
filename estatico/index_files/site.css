@@ -1,0 +1,52 @@
+body {
+    background-color: #111;
+    color: #EEE;
+}
+
+.card {
+    background-color: #0D0D0D;
+}
+
+.se-btn-group {
+    width: 100%;
+}
+
+.se-btn-group button {
+    width: 33.3%;
+}
+.noapretar{
+    pointer-events: none;
+}
+.symbol {
+    display: inline-block;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.symbol-sm {
+    display: inline-block;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+.empezarTXT{
+    margin-right: 10px;
+}
+.empiezaBTN{
+    width: 100%;
+}
+
+button.btn-light > .symbol {
+    filter: invert(100%);
+}
+
+.circle { background-image: url(circle.svg); }
+.square { background-image: url(square.svg); }
+.triangle { background-image: url(triangle.svg); }
+.sphere { background-image: url(sphere.svg); }
+.cube { background-image: url(cube.svg); }
+.pyramid { background-image: url(pyramid.svg); }
+.cylinder { background-image: url(cylinder.svg); }
+.prism { background-image: url(prism.png); }
+.cone { background-image: url(cone.svg); }
